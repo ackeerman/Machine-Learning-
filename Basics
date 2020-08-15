@@ -26,3 +26,9 @@ dict2
 #To access one element:
 dict2["s1"]
 dict2["s1"][1]
+
+
+tuple1=(1,2,3,45,5)
+#To access any element
+tuple1[3]
+#Immutable: Cannot add or change the elements like list
