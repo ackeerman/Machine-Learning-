@@ -35,3 +35,8 @@ tuple1=(1,2,3,45,5)
 #To access any element
 tuple1[3]
 #Immutable: Cannot add or change the elements like list
+
+#To install libraries:
+!pip install pandas
+OR
+!conda install pandas
