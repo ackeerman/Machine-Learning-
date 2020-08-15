@@ -1,0 +1,10 @@
+#List, dictionary , tuple
+#List:
+list1=[1,2,3,4,5]
+list1
+#For accessing one element:
+list1[2]
+#For 1 and 2
+list1[0:2]
+#For 1 and 3
+list1[0:3:2]
