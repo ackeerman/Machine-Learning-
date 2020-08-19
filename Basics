@@ -40,3 +40,7 @@ tuple1[3]
 !pip install pandas
 OR
 !conda install pandas
+
+#To read a csv file(excel):
+import pandas as pd
+a=pd.read_csv("filename.csv")
