@@ -1,0 +1,15 @@
+
+ILOC
+dataframe.iloc[0:5,0:4]
+#0:5- rows #0:4-columns
+dataframe.iloc[0:5,[0,3]]
+#0th column and ith column only
+#remove column
+dataframe.iloc[:,:-1]
+
+LOC
+dataframe.loc[:,"START*"]
+dataframe.loc[:,["START*","STOP*"]]
+dataframe.loc[:,["START*","STOP*"]].head()
+dataframe["START*"]
+dataframe.loc[:,["START*"]] #dataframe type
