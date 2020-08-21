@@ -18,3 +18,15 @@ temp["C"]=pd.to_numeric(temp["C"])
 #Summary of dataset:
 dataframe.describe(include="all")
 
+#Filtering and adding columns
+dataframe["MILES*"]>10
+#get only true or false-bool type
+df2=df.loc[df["MILES*"]>10,["MILES*"]]
+df-dataframe
+# find out all rides greater than 10 miles
+df.loc[df["MILES*"] > 10].head()
+#find out rides from new york
+df.loc[df["START*"]=="New York",["MILES*"]]
+# Find out all rides to Cary & Morrisville          
+my_rides=df[df["START*"].isin(["Cary","Morrisville"])]
+my_rides.head(n=10)
